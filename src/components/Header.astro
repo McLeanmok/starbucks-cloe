@@ -1,0 +1,30 @@
+---
+import Container from "./Container.astro";
+import Nav from "./Nav.astro";
+---
+
+<header>
+   <Container>
+        <div class="header-content">
+            <div class="logo">
+                <a href="/">Astro Starter Theme</a>
+            </div>
+            <Nav />
+        </div>
+   </Container>
+</header>
+
+<style>
+    header {
+        padding: 1.5rem;
+    }
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.logo a {
+    font-size: 1rem;
+    font-weight: bold;
+}
+</style>

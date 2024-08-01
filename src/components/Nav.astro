@@ -1,0 +1,29 @@
+<nav aria-label="Main Navigation" role="list" id="nav">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/services">Services</a></li>
+    </ul>
+</nav>
+<script>
+    import "../js/script.js"
+</script>
+<style>
+    ul {
+        display: flex;
+        list-style-type: none;
+    }
+    li {
+        padding: 1rem;
+    }
+    li a {
+        transition: 0.3s ease-in-out;
+    }
+    li a:hover {
+        border-bottom: 1px solid #000000;
+    }
+    .active {
+        font-weight: bold;
+    }
+</style>
